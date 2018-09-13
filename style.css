@@ -1,0 +1,42 @@
+.banner {
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn {
+  background-color: #477890;
+  color: white;
+  margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  border: none;
+  padding: 20px 25px;
+  }
+
+.btn:hover {
+  background-color: #E0777D;
+  color: #477890;
+  border: none;
+}
+
+.banner-content {
+  padding-top: 15vh;
+  align-content: center;
+  text-align: center;
+}
+
+.banner-content h1 {
+  color: #E0777D;
+  font-family: 'Marck Script', cursive;
+  font-size: 85px;
+  text-align: center;
+}
+
+.banner-content p {
+  color: #477890;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 18px;
+}
+

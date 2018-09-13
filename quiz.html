@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Portugal Wedding Place</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='style_quiz.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  </head>
+  <body>
+        <div class="navbar-wagon">
+      <div class="navbar-wagon-brand">
+        <a href="navigate.html">The Portugal Wedding Place</a>
+      </div>
+      <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+        <a href="region.html" class="navbar-wagon-item navbar-wagon-link">Regions</a>
+        <a href="vendors.html" class="navbar-wagon-item navbar-wagon-link">Vendors</a>
+        <a href="quiz.html" class="navbar-wagon-item navbar-wagon-link">Quiz</a>
+      </div>
+      <div class="navbar-wagon-item hidden-md hidden-lg">
+        <div class="dropdown">
+          <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+          <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+            <li><a href="region.html">Regions</a></li>
+            <li><a href="vendors.html">Vendors</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="banner" style="background-image: url('images/map.jpg'); background-position: center;">
+      <div class="banner-content">
+        <h1>Quiz: Find your perfect region</h1>
+      </div>
+    </div>
+    <div id='container'>
+      <div class="row">
+        <br/>
+        <div id='quiz'></div>
+        <div class='btn btn-primary' id='next'><a href='#'>Next</a></div>
+<!--         <div class='button' id='prev'><a href='#'>Prev</a></div> -->
+        <div class='btn btn-primary' id='start'> <a href='quiz.html'> Start the quiz over</a></div>
+        <div class='btn btn-primary' id='read'> <a href='region.html'>Read more about your region here.</a></div>
+        <!-- <button class='' id='next'>Next</a></button>
+        <button class='' id='prev'>Prev</a></button>
+        <button class='' id='start'> Start Over</a></button> -->
+      </div>
+    </div>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<!--     <script type="text/javascript" src='questions.json'></script> -->
+    <script type='text/javascript' src='jsquiz.js'></script>
+    <div class="footer">
+      <div class="footer-links">
+        Contact us at ThePortugalWeddingPlace@gmail.com
+      </div>
+      <div class="footer-copyright">
+        This website was made with <i class="fa fa-heart"></i> in Portugal
+      </div>
+    </div>
+  </body>
+</html>

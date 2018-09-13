@@ -1,0 +1,271 @@
+.container {
+  margin-top: 50px;
+  align-items: center;
+}
+
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* Logo */
+.navbar-wagon-brand a {
+  font-size: 25px;
+  color: #E0777D;
+  font-family: 'Marck Script', cursive;
+}
+
+.navbar-wagon-brand a:hover {
+  text-decoration: none;
+  color: #477890;
+}
+
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #477890;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #E0777D;
+  text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+.banner {
+  height: 70vh;
+  width: 100vw;
+}
+
+.banner-content {
+  padding-top: 25vh;
+  align-content: center;
+  text-align: center;
+}
+
+.banner-content h1 {
+  color: #E0777D;
+  font-family: 'Marck Script', cursive;
+  font-size: 85px;
+  text-align: center;
+}
+
+.banner-content p {
+  color: #477890;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+#intro p {
+  color: #477890;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding: 0px 75px 0px 75px;
+}
+
+#page-nav {
+  padding: 20px 75px 20px 75px;
+}
+
+.page-nav-link {
+  color: #477890 !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 16px !important;
+  padding: 0px 10px 0px 0px;
+}
+.page-nav-link:hover {
+  color: #E0777D !important;
+  text-decoration: none !important;
+}
+
+.title h1 {
+  color: #E0777D;
+  font-family: 'Marck Script', cursive;
+  font-size: 85px;
+  display:inline;
+}
+
+.title h3 {
+  color: #E0777D;
+  font-family: 'Marck Script', cursive;
+  font-size: 45px;
+  display:inline;
+}
+
+.title h4 {
+  color: #E0777D;
+  font-family: 'Marck Script', cursive;
+  font-size: 35px;
+}
+
+.venue-card {
+  height: 275px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-bottom: 55px;
+}
+
+
+.venue-card-description {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.venue-card-description h2 {
+  font-family: 'Marck Script', cursive;
+  font-size: 50px;
+}
+.venue-card-description h3 {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.venue-card-description p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.venue-link {
+  text-decoration: none !important;
+  color: white;
+  font-size: 22px;
+}
+
+.vendor-card {
+  height: 275px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-bottom: 55px;
+  transition: all 0.5s ease
+}
+
+.vendor-card:hover{
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06)
+}
+
+.vendor-card-description {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.vendor-card-description h2 {
+  font-family: 'Marck Script', cursive;
+  font-size: 50px;
+}
+.vendor-card-description h3 {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.vendor-card-description p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.btn {
+  background-color: #477890;
+  color: white;
+  margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  border: none;
+  padding: 20px 25px;
+  }
+
+.btn:hover {
+  background-color: #E0777D;
+  color: #477890;
+  border: none;
+}
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  margin-top: 55px;
+  font-family: 'Poppins', sans-serif;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
