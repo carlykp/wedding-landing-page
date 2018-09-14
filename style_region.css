@@ -114,6 +114,14 @@
   margin-top: 18px;
 }
 
+.region-des {
+  color: #477890;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-top: 18px;
+  justify-content: center;
+  padding-left: 50px;
+}
 #intro p {
   color: #477890;
   font-family: 'Poppins', sans-serif;
