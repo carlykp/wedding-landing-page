@@ -4,3 +4,5 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   bucket: "theportugalweddingplace"
   acl: public_read
+  skip_cleanup: true
+  region: "eu-west-1"
