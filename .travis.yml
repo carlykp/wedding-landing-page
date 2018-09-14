@@ -1,0 +1,6 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIAJWEZJR5HVU6PZ64Q"
+  secret_access_key: "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"
+  bucket: "theportugalweddingplace"
+  acl: public_read
