@@ -157,7 +157,7 @@
         quiz.append(scoreElem).fadeIn();
         $('#next').hide();
         $('#prev').hide();
-        $('#start').show();
+        $('#start').hide();
         $('#read').show();
       }
     });
