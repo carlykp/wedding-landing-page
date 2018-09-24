@@ -78,7 +78,7 @@
     if(quiz.is(':animated')) {
       return false;
     }
-    questionCounter = 0;
+
     selections = [];
     displayNext();
     $('#read').hide();
