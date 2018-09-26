@@ -15,6 +15,7 @@
 }
 
 /* Logo */
+
 .navbar-wagon-brand a {
   font-size: 25px;
   color: #E0777D;
@@ -192,4 +193,10 @@
 }
 .footer .fa-heart {
   color: #D23333;
+}
+
+.logo {
+  height: 50px;
+
+  text-align: center;
 }
