@@ -145,12 +145,14 @@
   left: 10px;
 }
 .card-description h2 {
-  font-size: 24px;
+  font-family: 'Marck Script', cursive;
+  font-size: 35px;
 }
 .card-description p {
-  font-size: 14px;
-  opacity: 0.7;
-  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  opacity: 0.8;
+  font-weight: ;
 }
 .card-link {
   position: absolute;
