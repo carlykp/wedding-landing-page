@@ -209,6 +209,20 @@
   }
 }
 
+.region-card-description a {
+  font-size: 20px;
+  text-decoration: none !important;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.region-card-description a:hover {
+  font-size: 22px;
+  text-decoration: none !important;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
 .btn {
   background-color: #477890;
   color: white;
