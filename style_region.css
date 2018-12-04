@@ -146,12 +146,15 @@
 }
 
 #page-nav {
-  padding: 0px 85px 50px 85px;
+  padding: 0px 85px 0px 85px;
   text-align: center;
+  background-color: #477890;
+  color: white;
+  margin-bottom: 50px;
 }
 
 .page-nav-link {
-  color: #477890 !important;
+  color: white !important;
   font-family: 'Poppins', sans-serif !important;
   font-size: 16px !important;
   padding: 0px 15px 0px 0px;
@@ -163,10 +166,8 @@
 
 .region-card {
   height: 475px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
-  color: white;
   position: relative;
   margin-bottom: 55px;
 }
@@ -179,6 +180,7 @@
 .region-card-description h2 {
   font-family: 'Marck Script', cursive;
   font-size: 50px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 
 @media screen and (max-width: 992px) {
@@ -195,6 +197,7 @@
 
 .region-card-description h3 {
   font-size: 24px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 
 @media screen and (max-width: 992px) {
@@ -210,7 +213,6 @@
 }
 .region-card-description p {
   font-size: 20px;
-  font-weight: lighter;
 }
 
 @media screen and (max-width: 992px) {
