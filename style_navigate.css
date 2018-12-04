@@ -168,6 +168,13 @@
   opacity: 0.1;
 }
 
+.description {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  font-size: 22px;
+  text-align: center;
+}
+
 .footer {
   background: #F4F4F4;
   display: flex;
