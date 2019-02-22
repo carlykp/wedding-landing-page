@@ -171,8 +171,8 @@
 .description {
   font-family: 'Poppins', sans-serif;
   margin-top: 50px;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 15vw !important;
+  margin-right: 15vw !important;
   font-size: 22px;
   text-align: left;
 }
