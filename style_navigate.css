@@ -171,8 +171,10 @@
 .description {
   font-family: 'Poppins', sans-serif;
   margin-top: 50px;
+  margin-left: 15vw;
+  margin-right: 15vw;
   font-size: 22px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer {
