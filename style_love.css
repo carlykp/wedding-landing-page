@@ -1,0 +1,304 @@
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: #000000;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Aleo', serif
+}
+
+.navbar-wagon-brand h3{
+  color: white !important;
+  padding-left: 5px;
+}
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #707070;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #999999;
+  text-decoration: none;
+}
+
+.videoWrapper {
+  background-color: #000000;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.introduction h2 {
+  color: #202020;
+  font-family: 'Aleo', serif;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.section h2 {
+  color: #404040;
+  font-family: 'Aleo', serif;
+  text-align: left;
+  font-size: 5vh;
+  margin-top: 50px;
+  text-decoration:underline;
+}
+
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 992px) {
+  div.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.card-category {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Aleo', serif;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h3 {
+  font-family: 'Aleo', serif;
+}
+.card-description p {
+  font-family: 'Aleo', serif;
+  font-size: 18px;
+  opacity: 0.8;
+  font-weight: ;
+}
+
+
+
+.header_container {
+  padding: 20px;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+.header_container h3 {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size: 2vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  div.header_container {
+    margin-right: 4vw;
+    margin-left: 4vw;
+  }
+  .header_container h3 {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size: 4vw;
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.header_container {
+    margin-right: 3vw;
+    margin-left: 3vw;
+  }
+  .header_container h3 {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size:6vw;
+  text-align: center;
+  }
+}
+
+.description_container {
+  padding: 20px;
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
+
+.description_container p {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  div.description_container {
+    margin-right: 12vw;
+    margin-left: 12vw;
+  }
+
+.description_container p {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size: 3vw;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+  div.description_container {
+    margin-right: 6vw;
+    margin-left: 6vw;
+  }
+
+
+.description_container p {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size: 4.5vw;
+  text-align: center;
+}
+}
+
+.included h3 {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size: 2vw;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.included p {
+  color: #808080;
+  font-family: 'Aleo', serif;
+  font-size: 1.5vw;
+  text-align: center;
+  }
+
+
+@media screen and (max-width: 992px) {
+.included h3 {
+  font-size: 4vw;
+  margin-bottom: 50px;
+}
+.included p {
+  font-size: 3vw;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+.included h3 {
+  font-size: 6vw;
+  margin-bottom: 50px;
+}
+
+.included p {
+  font-size: 4.5vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+}
+
+/* Add a background color and some padding around the form */
+.contact_container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  font-family: 'Aleo', serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  div.contact_container {
+    margin-right: 15vw;
+    margin-left: 15vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.contact_container {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 3px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'Aleo', serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Aleo', serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  margin-top: 55px;
+  font-family: 'Aleo', serif;
+  font-size: 18px;
+}
